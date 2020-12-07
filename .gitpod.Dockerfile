@@ -4,7 +4,7 @@ FROM gitpod/workspace-full-vnc
 RUN brew install emacs tmate
 
 RUN mkdir ~/bin \
-    && curl https://raw.githubusercontent.com/technomancy/leiningen/stable/bin/lein -O ~/bin/lein \
+    && curl https://raw.githubusercontent.com/technomancy/leiningen/stable/bin/lein > ~/bin/lein \
     && chmod +x ~/bin/lein
 RUN export PATH=~/bin:$PATH
 

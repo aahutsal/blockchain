@@ -1,8 +1,8 @@
-[![Gitpod ready-to-code](https://img.shields.io/badge/Gitpod-ready--to--code-blue?logo=gitpod)](https://gitpod.io/#https://github.com/paoloo/blockchain)
+[![Gitpod ready-to-code](https://img.shields.io/badge/Gitpod-ready--to--code-blue?logo=gitpod)](https://gitpod.io/#https://github.com/aahutsal/blockchain)
 
 # blockchain
 
-[![Travis CI](https://travis-ci.org/paoloo/blockchain.svg?branch=master)](https://travis-ci.org/paoloo/blockchain)
+[![Travis CI](https://travis-ci.org/aahutsal/blockchain.svg?branch=master)](https://travis-ci.org/aahutsal/blockchain)
 
 A clojure implementation of a blockchain based on [Learn Blockchains by Building One](https://hackernoon.com/learn-blockchains-by-building-one-117428612f46)
 
@@ -57,11 +57,11 @@ $ curl -X GET 127.0.0.1:8090/nodes/resolve
 ## Docker
 
 - Create a self contained version of application with: `lein ring uberjar`;
-- Run `docker build -t paoloo/blockchain .` to create image;
-- And finally, run `docker run -p 8090:8090 paoloo/blockchain` to instantiate it.
+- Run `docker build -t aahutsal/blockchain .` to create image;
+- And finally, run `docker run -p 8090:8090 aahutsal/blockchain` to instantiate it.
 
 ## License
 
 MIT
 
-Copyright (c) 2017 Paolo Oliveira
+Copyright (c) 2017 Paolo Oliveira, Arsen A. Hutsal <aahutsal@gmail.com>
