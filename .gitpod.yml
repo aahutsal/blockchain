@@ -3,4 +3,4 @@ image:
 
 tasks:
   - init: lein deps
-    command: lein deps
+    command: lein ring server
