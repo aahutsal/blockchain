@@ -64,4 +64,4 @@ $ curl -X GET 127.0.0.1:8090/nodes/resolve
 
 MIT
 
-Copyright (c) 2017 Paolo Oliveira, Arsen A. Hutsal <aahutsal@gmail.com>
+Copyright (c) 2017-2020 Paolo Oliveira, Arsen A. Hutsal <aahutsal@gmail.com>
