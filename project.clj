@@ -1,15 +1,15 @@
 (defproject blockchain "0.1.1-BURNINGASS"
   :description "A simple clojure implementation of a blockchain"
   :url "https://github.com/paoloo/blockchain"
-  :min-lein-version "2.0.0"
-  :dependencies [[org.clojure/clojure "1.8.0"]
-                 [compojure "1.5.1"]
-                 [clj-http "3.7.0"]
-                 [cheshire "5.8.0"]
-                 [ring/ring-defaults "0.2.1"]
-                 [ring/ring-json "0.4.0"]]
+  :min-lein-version "2.9.4"
+  :dependencies [[org.clojure/clojure "1.9.0"]
+                 [compojure "1.6.2"]
+                 [clj-http "3.11.0"]
+                 [cheshire "5.10.0"]
+                 [ring/ring-defaults "0.3.2"]
+                 [ring/ring-json "0.5.0"]]
 
-  :plugins [[lein-ring "0.9.7"]]
+  :plugins [[lein-ring "0.12.5"]]
   :ring {:handler blockchain.api/app
          :port 8090}
   :profiles
